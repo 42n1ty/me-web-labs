@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg"/>
+    <link rel="stylesheet" href="src/style.css"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Магазинчик(</title>
+  </head>
+  <body>
+
+    <header class="header">
+      <div class="container">
+        <div class="header__inner">
+          <a href="#" class="header__logo">
+            <img src="https://img.icons8.com/ios-filled/50/000000/shop.png" alt="Логотип магазина">
+          </a>
+          <div class="search">
+            <input type="text" id="searchInput" class="search__input" placeholder="Поиск...">
+          </div>
+          <nav class="nav">
+            <a href="#" class="nav__link">
+              <img src="https://img.icons8.com/ios-glyphs/30/000000/like.png" alt="Избранное">
+            </a>
+            <a href="#" class="nav__link">
+              <img src="https://img.icons8.com/ios-glyphs/30/000000/shopping-cart.png" alt="Корзина">
+            </a>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <main class="main">
+      <div class="container">
+        <section class="category">
+          <h1 class="category__title">Худи</h1>
+          <div class="product-grid">
+            <!-- Карточка товара -->
+            <article class="product-card">
+              <div class="product-card__image-container">
+                <img class="product-card__image" src="/img/01.jpg" alt="Худи с принтом">
+                <button class="product-card__favorite">♡</button>
+              </div>
+              <div class="product-card__info">
+                <p class="product-card__price">1199 ₽</p>
+                <h2 class="product-card__name">Худи с принтом</h2>
+              </div>
+              <button class="btn add-to-cart-btn">В корзину</button>
+            </article>
+            <!-- /Карточка товара -->
+
+            <article class="product-card">
+              <div class="product-card__image-container">
+                <img class="product-card__image" src="/img/02.jpg" alt="Базовое худи">
+                <button class="product-card__favorite">♡</button>
+              </div>
+              <div class="product-card__info">
+                <p class="product-card__price">999 ₽ <span class="old-price">1199 ₽</span></p>
+                <h2 class="product-card__name">Базовое худи</h2>
+              </div>
+              <button class="btn add-to-cart-btn">В корзину</button>
+            </article>
+
+             <article class="product-card">
+              <div class="product-card__image-container">
+                <img class="product-card__image" src="/img/03.jpg" alt="Худи оверсайз">
+                <button class="product-card__favorite">♡</button>
+              </div>
+              <div class="product-card__info">
+                <p class="product-card__price">1499 ₽</p>
+                <h2 class="product-card__name">Худи оверсайз</h2>
+              </div>
+              <button class="btn add-to-cart-btn">В корзину</button>
+            </article>
+          </div>
+        </section>
+
+        <section class="category">
+          <h1 class="category__title">Шорты</h1>
+          <div class="product-grid">
+            <article class="product-card">
+              <div class="product-card__image-container">
+                <img class="product-card__image" src="/img/04.jpg" alt="Широкие шорты">
+                <button class="product-card__favorite">♡</button>
+              </div>
+              <div class="product-card__info">
+                <p class="product-card__price">999 ₽</p>
+                <h2 class="product-card__name">Широкие шорты</h2>
+              </div>
+              <button class="btn add-to-cart-btn">В корзину</button>
+            </article>
+
+            <article class="product-card">
+              <div class="product-card__image-container">
+                <img class="product-card__image" src="img/05.jpg" alt="Джинсовые шорты">
+                <button class="product-card__favorite">♡</button>
+              </div>
+              <div class="product-card__info">
+                <p class="product-card__price">1199 ₽</p>
+                <h2 class="product-card__name">Джинсовые шорты</h2>
+              </div>
+              <button class="btn add-to-cart-btn">В корзину</button>
+            </article>
+          </div>
+        </section>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__inner">
+          <span>© 2025 Магазин</span>
+          <a href="#">Политика и безопасность</a>
+          <a href="#">Cookie</a>
+        </div>
+      </div>
+    </footer>
+
+    <script type="module" src="src/main.js"></script>
+  </body>
+</html>
